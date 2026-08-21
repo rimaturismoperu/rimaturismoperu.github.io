@@ -4,9 +4,7 @@
   const navigationLinks = document.querySelectorAll(".main-nav a");
   const filterButtons = document.querySelectorAll(".filter-button");
   const tourCards = document.querySelectorAll(".tour-card");
-  const tourButtons = document.querySelectorAll(".js-tour");
   const year = document.querySelector("#year");
-  const whatsappNumber = "51970773171";
 
   const closeMenu = () => {
     if (!menuToggle || !navigation) return;
@@ -24,70 +22,61 @@
       navigation.classList.toggle("is-open", willOpen);
       document.body.classList.toggle("menu-open", willOpen);
     });
-
     navigationLinks.forEach((link) => link.addEventListener("click", closeMenu));
-
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape") closeMenu();
     });
-
     window.addEventListener("resize", () => {
-      if (window.innerWidth > 1020) closeMenu();
+      if (window.innerWidth > 960) closeMenu();
     });
   }
 
   filterButtons.forEach((button) => {
     button.addEventListener("click", () => {
-      const selectedFilter = button.dataset.filter;
-
+      const selected = button.dataset.filter;
       filterButtons.forEach((item) => {
-        const isSelected = item === button;
-        item.classList.toggle("is-active", isSelected);
-        item.setAttribute("aria-pressed", String(isSelected));
+        const active = item === button;
+        item.classList.toggle("is-active", active);
+        item.setAttribute("aria-pressed", String(active));
       });
-
       tourCards.forEach((card) => {
-        const shouldShow =
-          selectedFilter === "all" || card.dataset.category === selectedFilter;
-        card.hidden = !shouldShow;
-
-        if (shouldShow) {
-          requestAnimationFrame(() => card.classList.add("is-visible"));
-        }
+        const show = selected === "all" || card.dataset.category === selected;
+        card.hidden = !show;
+        if (show) requestAnimationFrame(() => card.classList.add("is-visible"));
       });
     });
   });
 
-  tourButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      const tourName = button.dataset.tour || "una experiencia";
-      const message = `Hola Rimaturismo Perú, deseo información sobre ${tourName}. ¿Podrían indicarme las próximas fechas, el precio y las condiciones?`;
-      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
-    });
-  });
-
-  if (year) {
-    year.textContent = new Date().getFullYear();
-  }
+  if (year) year.textContent = new Date().getFullYear();
 
   const revealElements = document.querySelectorAll(".reveal");
-  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  if (prefersReducedMotion || !("IntersectionObserver" in window)) {
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reducedMotion || !("IntersectionObserver" in window)) {
     revealElements.forEach((element) => element.classList.add("is-visible"));
   } else {
-    const observer = new IntersectionObserver(
-      (entries, activeObserver) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          entry.target.classList.add("is-visible");
-          activeObserver.unobserve(entry.target);
-        });
-      },
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.08 },
-    );
-
+    const observer = new IntersectionObserver((entries, activeObserver) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        activeObserver.unobserve(entry.target);
+      });
+    }, { rootMargin: "0px 0px -7% 0px", threshold: 0.07 });
     revealElements.forEach((element) => observer.observe(element));
   }
+
+  const lightbox = document.querySelector("#lightbox");
+  const lightboxImage = lightbox?.querySelector("img");
+  const lightboxClose = lightbox?.querySelector(".lightbox__close");
+  document.querySelectorAll(".js-lightbox").forEach((button) => {
+    button.addEventListener("click", () => {
+      if (!lightbox || !lightboxImage) return;
+      lightboxImage.src = button.dataset.image || "";
+      lightboxImage.alt = button.dataset.alt || "";
+      lightbox.showModal();
+    });
+  });
+  lightboxClose?.addEventListener("click", () => lightbox?.close());
+  lightbox?.addEventListener("click", (event) => {
+    if (event.target === lightbox) lightbox.close();
+  });
 })();
