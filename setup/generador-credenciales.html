@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <meta name="theme-color" content="#103e33" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'" />
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="generador.css" />
+  <title>Preparar acceso privado | Rimaturismo Perú</title>
+</head>
+<body>
+  <main class="shell">
+    <section class="card">
+      <a class="brand" href="../index.html"><img src="../assets/logo-principal.jpg" alt="Rimaturismo Perú" /></a>
+      <p class="eyebrow">Preparación segura</p>
+      <h1>Generador de acceso del panel</h1>
+      <p class="lead">Esta herramienta funciona únicamente en este navegador. El correo y la contraseña no se envían a ningún servidor.</p>
+
+      <div class="notice"><strong>Importante</strong><span>Usa el correo administrativo de la empresa y una contraseña nueva de al menos 16 caracteres. No envíes esos datos por WhatsApp ni por este chat.</span></div>
+
+      <form id="credential-form" novalidate>
+        <label>Correo autorizado<input id="admin-email" type="email" autocomplete="username" placeholder="correo@empresa.com" required /></label>
+        <label>Contraseña nueva<input id="admin-password" type="password" autocomplete="new-password" minlength="16" required /></label>
+        <label>Repetir contraseña<input id="admin-password-confirm" type="password" autocomplete="new-password" minlength="16" required /></label>
+        <label class="show-password"><input id="show-password" type="checkbox" /> Mostrar la contraseña mientras la reviso</label>
+        <button class="primary" type="submit">Generar valores seguros</button>
+        <p class="message" id="form-message" role="status"></p>
+      </form>
+
+      <section class="results" id="results" hidden>
+        <h2>Valores para Cloudflare</h2>
+        <p>Copia cada valor en el campo del mismo nombre. La contraseña original no se guarda en la página.</p>
+        <div class="result"><div><strong>ADMIN_EMAIL</strong><code id="result-email"></code></div><button type="button" data-copy="result-email">Copiar</button></div>
+        <div class="result"><div><strong>ADMIN_PASSWORD_HASH</strong><code id="result-hash"></code></div><button type="button" data-copy="result-hash">Copiar</button></div>
+        <div class="result"><div><strong>SESSION_SECRET</strong><code id="result-secret"></code></div><button type="button" data-copy="result-secret">Copiar</button></div>
+        <p class="success" id="copy-message" role="status"></p>
+      </section>
+
+      <a class="back" href="../admin/">Ir al panel privado →</a>
+    </section>
+  </main>
+  <script src="generador.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "rimaturismo-peru-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-site.mjs",
+    "build:worker": "node scripts/build-worker.mjs",
+    "check": "node scripts/check-site.mjs && node scripts/check-worker.mjs"
+  }
+}

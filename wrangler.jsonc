@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "rimaturismo-panel-api",
+  "main": "worker/worker.js",
+  "compatibility_date": "2026-08-01",
+  "vars": {
+    "REPO_OWNER": "rimaturismoperu",
+    "REPO_NAME": "rimaturismoperu.github.io",
+    "BRANCH": "main",
+    "ALLOWED_ORIGIN": "https://TU-PROYECTO.pages.dev",
+    "PUBLIC_SITE_URL": "https://TU-PROYECTO.pages.dev"
+  }
+}

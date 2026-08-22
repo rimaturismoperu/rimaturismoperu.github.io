@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#082f27" />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="admin.css" />
+  <title>Panel privado | Rimaturismo Perú</title>
+</head>
+<body>
+  <main>
+    <section class="login-shell" id="login-view">
+      <div class="login-card">
+        <a class="admin-brand" href="../index.html" aria-label="Volver al sitio"><img src="../assets/logo-principal.jpg" alt="Rimaturismo Perú" /></a>
+        <p class="eyebrow">Acceso privado</p>
+        <h1>Panel administrativo</h1>
+        <p class="intro">Administra experiencias, fotografías, precios y datos de contacto sin entrar a GitHub.</p>
+        <div class="setup-warning" id="setup-warning" hidden>
+          <strong>Falta conectar el panel.</strong>
+          <span>Primero completa la guía de instalación incluida en la carpeta. No escribas aquí una contraseña todavía.</span>
+        </div>
+        <form id="login-form" novalidate>
+          <label>Correo autorizado<input id="login-email" name="email" type="email" autocomplete="username" required /></label>
+          <label>Contraseña<input id="login-password" name="password" type="password" autocomplete="current-password" minlength="16" required /></label>
+          <button class="button button--primary" type="submit">Ingresar</button>
+          <p class="form-message" id="login-message" role="status"></p>
+        </form>
+        <p class="security-note">No existe recuperación automática. Guarda las credenciales en un lugar seguro y no las compartas por chat.</p>
+        <a class="back-link" href="../index.html">← Volver a la página pública</a>
+      </div>
+    </section>
+
+    <section class="dashboard" id="dashboard" hidden>
+      <header class="topbar">
+        <div class="topbar__brand"><img src="../assets/logo-principal.jpg" alt="Rimaturismo Perú" /><div><strong>Panel privado</strong><span id="admin-email-label"></span></div></div>
+        <div class="topbar__actions"><span class="connection-status" id="connection-status">Conectado</span><a class="button button--quiet" href="../index.html" target="_blank" rel="noopener">Ver página ↗</a><button class="button button--quiet" id="logout-button" type="button">Salir</button></div>
+      </header>
+
+      <div class="dashboard__layout">
+        <aside class="sidebar">
+          <div class="sidebar__heading"><div><p class="eyebrow">Catálogo</p><h2>Experiencias</h2></div><button class="icon-button" id="add-tour-button" type="button" aria-label="Agregar experiencia" title="Agregar experiencia">＋</button></div>
+          <label class="search-field"><span>Buscar</span><input id="tour-search" type="search" placeholder="Nombre del tour" /></label>
+          <div class="tour-list" id="tour-list"></div>
+          <button class="sidebar-link" id="contact-settings-button" type="button"><span>⚙</span><span><strong>Contacto</strong><small>WhatsApp y correo</small></span></button>
+        </aside>
+
+        <section class="workspace">
+          <div class="loading-panel" id="loading-panel"><span class="spinner"></span><p>Cargando información...</p></div>
+
+          <form class="editor" id="tour-editor" hidden>
+            <div class="editor__header"><div><p class="eyebrow">Editar experiencia</p><h1 id="editor-title">Experiencia</h1><p class="slug-line">Dirección fija: <span id="tour-slug"></span></p></div><button class="button button--danger" id="delete-tour-button" type="button">Eliminar tour</button></div>
+
+            <div class="notice"><strong>Publicación automática</strong><span>Los cambios aparecerán en la página pública aproximadamente entre 1 y 5 minutos después de guardar.</span></div>
+
+            <fieldset><legend>Información principal</legend><div class="form-grid form-grid--two">
+              <label>Nombre de la experiencia<input name="name" maxlength="140" required /></label>
+              <label>Categoría<select name="category"><option value="huaylas">Callejón de Huaylas</option><option value="conchucos">Callejón de Conchucos</option><option value="lima">Salidas desde Lima</option></select></label>
+              <label>Tipo de experiencia<input name="type" maxlength="160" placeholder="Ej.: Naturaleza · Full day" /></label>
+              <label>Duración<input name="duration" maxlength="100" placeholder="Ej.: Full day" /></label>
+            </div>
+            <label>Descripción corta para la portada<textarea name="cardDescription" rows="3" maxlength="320"></textarea><small>Se muestra en la tarjeta del catálogo y en buscadores.</small></label>
+            <label>Descripción completa<textarea name="description" rows="6" maxlength="5000"></textarea></label></fieldset>
+
+            <fieldset><legend>Horario, dificultad y tarifa</legend><div class="form-grid form-grid--two">
+              <label>Horario<input name="schedule" maxlength="220" placeholder="Ej.: Salida 9:00 a. m. · retorno 7:00 p. m." /></label>
+              <label>Dificultad<input name="difficulty" maxlength="100" placeholder="Ej.: Moderada" /></label>
+            </div>
+            <label class="switch-row"><input name="showPrice" type="checkbox" /><span><strong>Mostrar precio o tarifa</strong><small>Déjalo apagado para fiestas o experiencias cuyo precio cambia.</small></span></label>
+            <div class="form-grid form-grid--two" id="price-fields"><label>Precio o texto de tarifa<input name="priceLabel" maxlength="180" placeholder="Ej.: Desde S/120 o Tarifa: consultar" /></label><label>Detalle de tarifa e ingresos<input name="priceDetail" maxlength="500" /></label></div></fieldset>
+
+            <fieldset><legend>Contenido del recorrido</legend><div class="form-grid form-grid--three">
+              <label>Lo más destacado<textarea name="highlights" rows="7" placeholder="Un punto por línea"></textarea></label>
+              <label>Qué incluye<textarea name="includes" rows="7" placeholder="Un elemento por línea"></textarea></label>
+              <label>Qué no incluye<textarea name="notIncludes" rows="7" placeholder="Un elemento por línea"></textarea></label>
+            </div><label>Qué llevar<textarea name="bring" rows="4" placeholder="Un elemento por línea"></textarea></label></fieldset>
+
+            <fieldset><legend>Fotografías</legend><p class="field-help">La primera imagen será la portada. Puedes usar hasta 8 fotos por experiencia. El panel las reduce automáticamente para ahorrar espacio.</p><div class="image-list" id="image-list"></div><label class="upload-box"><input id="image-upload" type="file" accept="image/jpeg,image/png,image/webp" multiple /><span class="upload-box__icon">＋</span><strong>Agregar fotografías</strong><small>JPG, PNG o WebP · máximo 8 imágenes en total</small></label></fieldset>
+
+            <div class="editor__footer"><p class="form-message" id="publish-message" role="status"></p><button class="button button--primary button--large" id="publish-button" type="submit">Guardar y publicar</button></div>
+          </form>
+
+          <form class="editor" id="contact-editor" hidden>
+            <div class="editor__header"><div><p class="eyebrow">Configuración</p><h1>Contacto oficial</h1><p>Estos datos se actualizarán en toda la página y en todos los botones.</p></div></div>
+            <div class="notice"><strong>Importante</strong><span>Escribe el WhatsApp con código de país. Para Perú debe comenzar con 51.</span></div>
+            <fieldset><legend>Canales de atención</legend><div class="form-grid form-grid--two"><label>Número de WhatsApp<input name="whatsapp" inputmode="numeric" maxlength="20" placeholder="51970773171" required /><small>Solo números, sin + ni espacios.</small></label><label>Cómo se muestra el número<input name="whatsappDisplay" maxlength="30" placeholder="+51 970 773 171" required /></label><label>Correo electrónico<input name="email" type="email" maxlength="160" required /></label></div></fieldset>
+            <div class="editor__footer"><p class="form-message" id="contact-message" role="status"></p><button class="button button--primary button--large" type="submit">Guardar y publicar</button></div>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="confirm-dialog" id="confirm-dialog"><form method="dialog"><h2 id="confirm-title">Confirmar acción</h2><p id="confirm-text"></p><div><button class="button button--quiet" value="cancel">Cancelar</button><button class="button button--danger" value="confirm">Sí, continuar</button></div></form></dialog>
+  <script src="config.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,848 @@
+{
+  "version": 2,
+  "site": {
+    "name": "Rimaturismo Perú",
+    "legalName": "Pablo Acosta Padilla",
+    "ruc": "10440262398",
+    "whatsapp": "51970773171",
+    "whatsappDisplay": "+51 970 773 171",
+    "email": "rimaturismoperu@hotmail.com",
+    "baseUrl": "https://rimaturismoperu.pages.dev",
+    "description": "Tours y experiencias auténticas en Chacas, el Callejón de Huaylas y el Callejón de Conchucos con Rimaturismo Perú.",
+    "address": "Jr. Lima 0 G, S/N, frente al Hotel Mirador Loungs, Chacas, Asunción, Áncash"
+  },
+  "tours": [
+    {
+      "id": "chavin-de-huantar",
+      "slug": "chavin-de-huantar",
+      "order": 1,
+      "name": "Chavín de Huántar",
+      "category": "huaylas",
+      "categoryLabel": "Callejón de Huaylas",
+      "type": "Cultura · Full day",
+      "cardDescription": "Historia viva, arquitectura ancestral y paisajes que conectan con el legado cultural de Áncash.",
+      "description": "Una ruta de día completo hacia el corazón de la cultura Chavín. El recorrido combina paisajes de altura, historia y una visita al complejo arqueológico que marcó una de las grandes civilizaciones del antiguo Perú.",
+      "seoDescription": "Historia viva, arquitectura ancestral y paisajes que conectan con el legado cultural de Áncash.",
+      "duration": "Full day",
+      "schedule": "Salida 9:15 a. m. · retorno estimado 7:00–8:00 p. m.",
+      "difficulty": "Moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingreso referencial: S/34 por adulto; menores según tarifa vigente.",
+      "highlights": [
+        "Laguna Querococha y vista del Mapa del Perú",
+        "Paso por el túnel de Cahuish",
+        "Complejo arqueológico y museo de Chavín"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Documento de identidad",
+        "Abrigo y calzado cómodo",
+        "Agua y protector solar"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/chavin-huantar-01.webp",
+          "alt": "Cabeza clava del complejo arqueológico Chavín de Huántar"
+        },
+        {
+          "path": "assets/tours/chavin-huantar-02.webp",
+          "alt": "Templo arqueológico de Chavín de Huántar"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "laguna-rocotuyoc-y-congelada",
+      "slug": "laguna-rocotuyoc-y-congelada",
+      "order": 2,
+      "name": "Laguna Rocotuyoc y Laguna Congelada",
+      "category": "huaylas",
+      "categoryLabel": "Callejón de Huaylas",
+      "type": "Naturaleza · Caminata",
+      "cardDescription": "Lagunas de altura, hielo, aire puro y una caminata entre escenarios de montaña.",
+      "description": "Una experiencia de naturaleza que parte hacia Vicos y la quebrada de Rocotuyoc. Desde la primera laguna se realiza una caminata corta hacia la Laguna Congelada, rodeada por glaciares y formaciones de alta montaña.",
+      "seoDescription": "Lagunas de altura, hielo, aire puro y una caminata entre escenarios de montaña.",
+      "duration": "Full day",
+      "schedule": "Salida 9:15 a. m. · retorno estimado 6:00–6:30 p. m.",
+      "difficulty": "Moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingreso referencial: S/10 por persona.",
+      "highlights": [
+        "Ruta por Marcará y la comunidad de Vicos",
+        "Visita a la Laguna Rocotuyoc",
+        "Caminata aproximada de 30 a 45 minutos a la Laguna Congelada"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Zapatillas de trekking",
+        "Ropa abrigadora e impermeable",
+        "Agua, gorro y protector solar"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/rocotuyoc-congelada-01.webp",
+          "alt": "Laguna Rocotuyoc frente a montañas nevadas"
+        },
+        {
+          "path": "assets/tours/rocotuyoc-congelada-02.webp",
+          "alt": "Frente glaciar de la Laguna Congelada"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "laguna-paron",
+      "slug": "laguna-paron",
+      "order": 3,
+      "name": "Laguna Parón",
+      "category": "huaylas",
+      "categoryLabel": "Callejón de Huaylas",
+      "type": "Laguna · Full day",
+      "cardDescription": "Aguas turquesas y una vista privilegiada de la Cordillera Blanca.",
+      "description": "Una jornada para contemplar uno de los paisajes más reconocibles de la Cordillera Blanca. La ruta llega a la Laguna Parón, donde podrás disfrutar la orilla, realizar actividades opcionales o subir al mirador según tus condiciones.",
+      "seoDescription": "Aguas turquesas y una vista privilegiada de la Cordillera Blanca.",
+      "duration": "Full day",
+      "schedule": "Salida 6:30 a. m. · retorno estimado 5:30–6:30 p. m.",
+      "difficulty": "Moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingreso referencial: S/12 nacional · S/30 extranjero.",
+      "highlights": [
+        "Parada en la ciudad de Caraz",
+        "Tiempo libre junto a la laguna",
+        "Kayak, paseo en bote y mirador como actividades opcionales"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Abrigo, gorro y lentes de sol",
+        "Calzado con buen agarre",
+        "Dinero en efectivo para actividades opcionales"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/laguna-paron-01.webp",
+          "alt": "Vista panorámica de la Laguna Parón"
+        },
+        {
+          "path": "assets/tours/laguna-paron-02.webp",
+          "alt": "Visitantes en kayak sobre la Laguna Parón"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "laguna-69",
+      "slug": "laguna-69",
+      "order": 4,
+      "name": "Laguna 69",
+      "category": "huaylas",
+      "categoryLabel": "Callejón de Huaylas",
+      "type": "Trekking · Alta montaña",
+      "cardDescription": "Una caminata exigente recompensada por un paisaje inolvidable de aguas turquesas.",
+      "description": "Una de las caminatas más emblemáticas de Áncash. Desde Cebollapampa se recorren aproximadamente 12 kilómetros entre ida y vuelta, atravesando quebradas y vistas nevadas hasta alcanzar la Laguna 69.",
+      "seoDescription": "Una caminata exigente recompensada por un paisaje inolvidable de aguas turquesas.",
+      "duration": "Full day",
+      "schedule": "Salida 5:00 a. m. · retorno estimado 7:00–8:00 p. m.",
+      "difficulty": "Exigente",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingreso referencial: S/15 nacional · S/30 extranjero.",
+      "highlights": [
+        "Inicio de caminata en Cebollapampa",
+        "Trekking aproximado de 5 a 7 horas",
+        "Paisajes de los nevados Pisco, Pirámide, Artesonraju y Huandoy"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Buena condición física y aclimatación previa",
+        "Calzado de trekking y bastones",
+        "Agua, snacks, impermeable y protector solar"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/laguna-69-01.webp",
+          "alt": "Laguna 69 y montañas nevadas de la Cordillera Blanca"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "nevado-pastoruri",
+      "slug": "nevado-pastoruri",
+      "order": 5,
+      "name": "Nevado Pastoruri",
+      "category": "huaylas",
+      "categoryLabel": "Callejón de Huaylas",
+      "type": "Ruta de altura · Full day",
+      "cardDescription": "Una ruta altoandina entre manantiales, puyas de Raimondi y paisajes glaciares.",
+      "description": "La ruta del cambio climático conduce hacia el Nevado Pastoruri y permite conocer singulares formaciones naturales de la puna. El recorrido combina paradas interpretativas y una caminata de altura.",
+      "seoDescription": "Una ruta altoandina entre manantiales, puyas de Raimondi y paisajes glaciares.",
+      "duration": "Full day",
+      "schedule": "Salida 9:15 a. m. · retorno estimado 5:00–6:00 p. m.",
+      "difficulty": "Moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingreso referencial: S/12 nacional · S/30 extranjero.",
+      "highlights": [
+        "Aguas gasificadas de Pumapampa",
+        "Manantial de siete colores Pumashimi",
+        "Bosque de puyas de Raimondi y Nevado Pastoruri"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Aclimatación previa",
+        "Abrigo, guantes y gorro",
+        "Calzado cómodo, agua y protector solar"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/pastoruri-01.webp",
+          "alt": "Visitantes en la ruta del Nevado Pastoruri"
+        },
+        {
+          "path": "assets/tours/pastoruri-02.webp",
+          "alt": "Puyas de Raimondi bajo el cielo andino"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "nevado-mateo",
+      "slug": "nevado-mateo",
+      "order": 6,
+      "name": "Nevado Mateo",
+      "category": "huaylas",
+      "categoryLabel": "Callejón de Huaylas",
+      "type": "Alta montaña · Ascenso",
+      "cardDescription": "Una primera experiencia de montaña con equipo técnico y acompañamiento especializado.",
+      "description": "Ascenso de alta montaña pensado para personas con buena condición física y aclimatación. La experiencia se realiza con guía y equipo técnico, siempre sujeta a evaluación, clima y condiciones de seguridad.",
+      "seoDescription": "Una primera experiencia de montaña con equipo técnico y acompañamiento especializado.",
+      "duration": "Jornada de montaña",
+      "schedule": "Recojo 2:45–3:00 a. m. · retorno estimado 3:00–3:30 p. m.",
+      "difficulty": "Exigente",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingreso referencial: S/30 por persona.",
+      "highlights": [
+        "Ascenso glaciar aproximado de 2 a 3 horas",
+        "Equipo técnico de montaña",
+        "Guía oficial y botiquín de primeros auxilios"
+      ],
+      "includes": [
+        "Transporte turístico",
+        "Equipo técnico de montaña",
+        "Guía oficial y botiquín"
+      ],
+      "notIncludes": [
+        "Ropa personal de montaña",
+        "Alimentación y gastos no indicados",
+        "Ingreso al área"
+      ],
+      "bring": [
+        "Aclimatación y buena condición física",
+        "Ropa térmica e impermeable",
+        "Guantes, lentes, agua y snacks"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/nevado-mateo-01.webp",
+          "alt": "Montañistas ascendiendo el Nevado Mateo"
+        },
+        {
+          "path": "assets/tours/nevado-mateo-02.webp",
+          "alt": "Grupo de visitantes sobre la nieve del Nevado Mateo"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "chavin-de-noche",
+      "slug": "chavin-de-noche",
+      "order": 7,
+      "name": "Chavín de Noche",
+      "category": "huaylas",
+      "categoryLabel": "Callejón de Huaylas",
+      "type": "Cultura · Experiencia nocturna",
+      "cardDescription": "Relatos, arte y una puesta en escena que acerca al visitante al mundo Chavín.",
+      "description": "Una propuesta cultural nocturna que utiliza luces, personajes y escenificación para presentar el imaginario de Chavín desde una experiencia diferente.",
+      "seoDescription": "Relatos, arte y una puesta en escena que acerca al visitante al mundo Chavín.",
+      "duration": "Experiencia nocturna",
+      "schedule": "Horario: previa coordinación",
+      "difficulty": "Baja",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingresos y condiciones: confirmar al reservar.",
+      "highlights": [
+        "Ambientación nocturna",
+        "Personajes y expresión cultural",
+        "Experiencia sujeta a programación"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Abrigo para la noche",
+        "Calzado cómodo",
+        "Cámara o teléfono"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/chavin-noche-01.webp",
+          "alt": "Escenificación cultural de Chavín de Noche"
+        },
+        {
+          "path": "assets/tours/chavin-noche-02.webp",
+          "alt": "Personaje enmascarado durante Chavín de Noche"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "city-tour-huaraz",
+      "slug": "city-tour-huaraz",
+      "order": 8,
+      "name": "City Tour Huaraz",
+      "category": "huaylas",
+      "categoryLabel": "Callejón de Huaylas",
+      "type": "Ciudad · Cultura",
+      "cardDescription": "Una mirada cercana a Huaraz, sus espacios emblemáticos y su identidad andina.",
+      "description": "Recorrido urbano para descubrir lugares representativos de Huaraz y comprender su relación con la historia, la cultura y el paisaje de la Cordillera Blanca.",
+      "seoDescription": "Una mirada cercana a Huaraz, sus espacios emblemáticos y su identidad andina.",
+      "duration": "Medio día",
+      "schedule": "Horario: previa coordinación",
+      "difficulty": "Baja",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingresos a atractivos: confirmar según recorrido.",
+      "highlights": [
+        "Espacios representativos de Huaraz",
+        "Historia e identidad local",
+        "Paradas definidas según el programa contratado"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Calzado cómodo",
+        "Agua y protector solar",
+        "Documento de identidad"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/city-tour-huaraz-01.webp",
+          "alt": "Plaza e iglesia en la ciudad de Huaraz"
+        },
+        {
+          "path": "assets/tours/city-tour-huaraz-02.webp",
+          "alt": "Monumento de la cruz durante el City Tour Huaraz"
+        }
+      ],
+      "video": "assets/videos/city-tour-huaraz.mp4",
+      "videoTitle": "Un vistazo real a esta ruta."
+    },
+    {
+      "id": "llanganuco-y-yungay",
+      "slug": "llanganuco-y-yungay",
+      "order": 9,
+      "name": "Llanganuco y Yungay",
+      "category": "huaylas",
+      "categoryLabel": "Callejón de Huaylas",
+      "type": "Paisaje · Full day",
+      "cardDescription": "Naturaleza, memoria e historia en una ruta clásica del Callejón de Huaylas.",
+      "description": "Un recorrido entre pueblos andinos y montañas que visita Carhuaz, el Campo Santo de Yungay y la Laguna Chinancocha en Llanganuco, antes de finalizar con una parada artesanal.",
+      "seoDescription": "Naturaleza, memoria e historia en una ruta clásica del Callejón de Huaylas.",
+      "duration": "Full day",
+      "schedule": "Salida 9:30 a. m. · retorno estimado 7:00–8:00 p. m.",
+      "difficulty": "Baja a moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingreso referencial: S/22 nacional · S/40 extranjero; menores según tarifa vigente.",
+      "highlights": [
+        "Visita a Carhuaz",
+        "Campo Santo de Yungay",
+        "Laguna Chinancocha y parada artesanal en Taricá"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Abrigo ligero",
+        "Calzado cómodo",
+        "Agua, gorro y protector solar"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/llanganuco-yungay-01.webp",
+          "alt": "Laguna de Llanganuco entre montañas"
+        },
+        {
+          "path": "assets/tours/llanganuco-yungay-02.webp",
+          "alt": "Campo Santo de Yungay y Cordillera Blanca"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "punta-olimpica-y-chacas",
+      "slug": "punta-olimpica-y-chacas",
+      "order": 10,
+      "name": "Punta Olímpica y Chacas",
+      "category": "conchucos",
+      "categoryLabel": "Callejón de Conchucos",
+      "type": "Pueblos y montañas · Full day",
+      "cardDescription": "Cruza la Cordillera Blanca y descubre Chacas, su patrimonio y tradición artesanal.",
+      "description": "Una ruta memorable por la quebrada Ulta y el túnel Punta Olímpica, uno de los pasos viales más altos del mundo. El viaje continúa hacia Chacas para conocer su plaza, el Santuario Mamá Ashu y el legado de los artesanos Don Bosco.",
+      "seoDescription": "Cruza la Cordillera Blanca y descubre Chacas, su patrimonio y tradición artesanal.",
+      "duration": "Full day",
+      "schedule": "Salida 9:15 a. m. · retorno estimado 7:30–8:30 p. m.",
+      "difficulty": "Moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingreso referencial: S/12 nacional · S/30 extranjero.",
+      "highlights": [
+        "Quebrada Ulta y vista de la Cordillera Blanca",
+        "Túnel Punta Olímpica a 4,736 m s. n. m.",
+        "Plaza de Chacas, santuario y talleres artesanales"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Abrigo para altura",
+        "Calzado cómodo",
+        "Agua y protector solar"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/punta-olimpica-chacas-01.webp",
+          "alt": "Entrada al túnel Punta Olímpica"
+        },
+        {
+          "path": "assets/tours/punta-olimpica-chacas-02.webp",
+          "alt": "Vista aérea de la plaza e iglesia de Chacas"
+        }
+      ],
+      "video": "assets/videos/experiencia-chacas.mp4",
+      "videoTitle": "Un vistazo real a esta ruta."
+    },
+    {
+      "id": "picnic-punta-olimpica",
+      "slug": "picnic-punta-olimpica",
+      "order": 11,
+      "name": "Picnic Punta Olímpica",
+      "category": "conchucos",
+      "categoryLabel": "Callejón de Conchucos",
+      "type": "Gastronomía · Paisaje",
+      "cardDescription": "Un desayuno o picnic andino en un escenario de lagunas y montañas.",
+      "description": "Una experiencia para compartir alimentos y tradición frente a un paisaje de altura. El programa, los alimentos incluidos y el punto exacto se confirman antes de cada salida.",
+      "seoDescription": "Un desayuno o picnic andino en un escenario de lagunas y montañas.",
+      "duration": "Según programa",
+      "schedule": "Horario: previa coordinación",
+      "difficulty": "Baja a moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingresos y servicios adicionales: confirmar al reservar.",
+      "highlights": [
+        "Paisaje de alta montaña",
+        "Momento gastronómico compartido",
+        "Experiencia para grupos, sujeta a clima"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Abrigo y gorro",
+        "Calzado cómodo",
+        "Protector solar"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/picnic-punta-olimpica-01.webp",
+          "alt": "Grupo compartiendo un picnic en Punta Olímpica"
+        },
+        {
+          "path": "assets/tours/picnic-punta-olimpica-02.webp",
+          "alt": "Picnic andino frente a una laguna de altura"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "laguna-libron",
+      "slug": "laguna-libron",
+      "order": 12,
+      "name": "Laguna Librón",
+      "category": "conchucos",
+      "categoryLabel": "Callejón de Conchucos",
+      "type": "Trekking · Naturaleza",
+      "cardDescription": "Una caminata hacia lagunas intensamente azules en un entorno de montaña.",
+      "description": "Ruta de naturaleza para quienes buscan paisajes menos transitados. El nivel, duración y logística se coordinan según las condiciones del grupo y el clima.",
+      "seoDescription": "Una caminata hacia lagunas intensamente azules en un entorno de montaña.",
+      "duration": "Según programa",
+      "schedule": "Horario: previa coordinación",
+      "difficulty": "Moderada a exigente",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingresos: confirmar según la ruta.",
+      "highlights": [
+        "Paisaje de lagunas altoandinas",
+        "Caminata en la Cordillera de los Andes",
+        "Ruta sujeta a evaluación y clima"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Calzado de trekking",
+        "Abrigo e impermeable",
+        "Agua, snacks y protector solar"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/laguna-libron-01.webp",
+          "alt": "Vista panorámica de la Laguna Librón"
+        },
+        {
+          "path": "assets/tours/laguna-libron-02.webp",
+          "alt": "Grupo de excursionistas junto a la Laguna Librón"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "laguna-patarcocha",
+      "slug": "laguna-patarcocha",
+      "order": 13,
+      "name": "Laguna Patarcocha",
+      "category": "conchucos",
+      "categoryLabel": "Callejón de Conchucos",
+      "type": "Trekking · Naturaleza",
+      "cardDescription": "Bosque, senderos y una laguna tranquila al noreste de Chacas.",
+      "description": "La Laguna Patarcocha es un depósito natural de agua dulce de origen glaciar situado al noreste de Chacas. La caminata atraviesa un entorno de vegetación andina y paisajes serenos.",
+      "seoDescription": "Bosque, senderos y una laguna tranquila al noreste de Chacas.",
+      "duration": "Según programa",
+      "schedule": "Horario: previa coordinación",
+      "difficulty": "Moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingresos: confirmar según la ruta.",
+      "highlights": [
+        "Sendero entre vegetación",
+        "Laguna de origen glaciar",
+        "Experiencia cercana a Chacas"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Calzado de trekking",
+        "Abrigo e impermeable",
+        "Agua y repelente"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/laguna-patarcocha-01.webp",
+          "alt": "Laguna Patarcocha y una pequeña embarcación"
+        },
+        {
+          "path": "assets/tours/laguna-patarcocha-02.webp",
+          "alt": "Visitantes caminando por el bosque hacia Patarcocha"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "santuario-de-pomallucay",
+      "slug": "santuario-de-pomallucay",
+      "order": 14,
+      "name": "Santuario de Pomallucay",
+      "category": "conchucos",
+      "categoryLabel": "Callejón de Conchucos",
+      "type": "Fe · Arquitectura",
+      "cardDescription": "Arquitectura, espiritualidad y legado comunitario en un rincón de los Andes.",
+      "description": "Pomallucay es un pequeño pueblo de los Andes peruanos ligado a la región Áncash. Su santuario, construido con participación comunitaria, reúne fe, historia local y una singular arquitectura.",
+      "seoDescription": "Arquitectura, espiritualidad y legado comunitario en un rincón de los Andes.",
+      "duration": "Según programa",
+      "schedule": "Horario: previa coordinación",
+      "difficulty": "Baja",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Aportes o ingresos: confirmar al reservar.",
+      "highlights": [
+        "Santuario y arquitectura local",
+        "Historia vinculada a la Operación Mato Grosso",
+        "Paisaje rural de Pomallucay"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Ropa respetuosa para la visita",
+        "Calzado cómodo",
+        "Cámara o teléfono"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/pomallucay-01.webp",
+          "alt": "Exterior del Santuario de Pomallucay"
+        },
+        {
+          "path": "assets/tours/pomallucay-02.webp",
+          "alt": "Interior religioso del Santuario de Pomallucay"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "vaqueria-huachucocha",
+      "slug": "vaqueria-huachucocha",
+      "order": 15,
+      "name": "Vaquería Huachucocha",
+      "category": "conchucos",
+      "categoryLabel": "Callejón de Conchucos",
+      "type": "Rural · Gastronomía",
+      "cardDescription": "Vida rural, laguna y tradición quesera en un entorno de montaña.",
+      "description": "Huachucocha ofrece una experiencia vinculada a la vida de campo, el paisaje altoandino y la elaboración local de quesos. El recorrido puede combinar la vaquería, la laguna y espacios de producción.",
+      "seoDescription": "Vida rural, laguna y tradición quesera en un entorno de montaña.",
+      "duration": "Según programa",
+      "schedule": "Horario: previa coordinación",
+      "difficulty": "Baja a moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingresos y degustaciones: confirmar al reservar.",
+      "highlights": [
+        "Paisaje rural de alta montaña",
+        "Conocimiento del proceso quesero",
+        "Visita coordinada con productores locales"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Abrigo",
+        "Calzado cómodo",
+        "Agua y protector solar"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/vaqueria-huachucocha-01.webp",
+          "alt": "Cabañas de piedra en Vaquería Huachucocha"
+        },
+        {
+          "path": "assets/tours/vaqueria-huachucocha-02.webp",
+          "alt": "Productor local elaborando quesos"
+        }
+      ],
+      "video": "assets/videos/vaqueria-huachucocha.mp4",
+      "videoTitle": "Un vistazo real a esta ruta."
+    },
+    {
+      "id": "yanama",
+      "slug": "yanama",
+      "order": 16,
+      "name": "Yanama",
+      "category": "conchucos",
+      "categoryLabel": "Callejón de Conchucos",
+      "type": "Pueblo · Paisaje",
+      "cardDescription": "Un paraíso escondido en la ruta de Chacas a Yanama, entre fauna silvestre y vistas de los Andes.",
+      "description": "Un paraíso escondido te espera en la ruta de Chacas a Yanama. Disfruta de la fauna silvestre, imponentes vistas de la Cordillera de los Andes y el emblemático campanario del Padre Ugo con su lema “Solo Dios”.",
+      "seoDescription": "Un paraíso escondido en la ruta de Chacas a Yanama, entre fauna silvestre y vistas de los Andes.",
+      "duration": "Según programa",
+      "schedule": "Horario: previa coordinación",
+      "difficulty": "Baja a moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: consultar",
+      "priceDetail": "Ingresos: confirmar según el recorrido.",
+      "highlights": [
+        "Ruta paisajística desde Chacas",
+        "Fauna y entorno natural",
+        "Campanario del Padre Ugo y vistas de la cordillera"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Abrigo",
+        "Calzado cómodo",
+        "Agua, cámara y protector solar"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/yanama-01.webp",
+          "alt": "Iglesia de Yanama frente a la cordillera"
+        },
+        {
+          "path": "assets/tours/yanama-02.webp",
+          "alt": "Campanario y montaña nevada en Yanama"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "semana-santa-en-chacas",
+      "slug": "semana-santa-en-chacas",
+      "order": 17,
+      "name": "Semana Santa en Chacas",
+      "category": "lima",
+      "categoryLabel": "Salidas desde Lima",
+      "type": "Fe · Tradición",
+      "cardDescription": "Una experiencia de fe, arte y devoción en las calles de piedra de Chacas.",
+      "description": "Prepárate para un viaje único desde Lima hasta el corazón de Áncash. Viviremos la Semana Santa en Chacas, una profunda experiencia de fe, arte y devoción para acompañar la Pasión de Cristo entre calles de piedra, altares tradicionales y paisajes andinos imponentes.",
+      "seoDescription": "Una experiencia de fe, arte y devoción en las calles de piedra de Chacas.",
+      "duration": "Programa especial",
+      "schedule": "Salida y retorno: previa coordinación",
+      "difficulty": "Baja",
+      "showPrice": false,
+      "priceLabel": "",
+      "priceDetail": "",
+      "highlights": [
+        "Salida coordinada desde Lima",
+        "Celebraciones de fe y tradición",
+        "Calles, altares y paisajes de Chacas"
+      ],
+      "includes": [
+        "El contenido exacto del servicio se detalla en la cotización enviada por WhatsApp."
+      ],
+      "notIncludes": [
+        "Ingresos, alimentación, actividades opcionales y otros servicios se confirman antes de reservar."
+      ],
+      "bring": [
+        "Abrigo para las noches",
+        "Calzado cómodo",
+        "Documento de identidad y artículos personales"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/semana-santa-01.webp",
+          "alt": "Procesión con velas frente a la iglesia de Chacas"
+        },
+        {
+          "path": "assets/tours/semana-santa-02.webp",
+          "alt": "Altar y velas durante Semana Santa en Chacas"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "fiesta-patronal-mama-ashu",
+      "slug": "fiesta-patronal-mama-ashu",
+      "order": 18,
+      "name": "Fiesta Patronal Mamá Ashu",
+      "category": "lima",
+      "categoryLabel": "Salidas desde Lima",
+      "type": "Fiesta patronal · 3 días / 2 noches",
+      "cardDescription": "Fe, devoción, cultura y paisajes de la sierra en una tradición única de Chacas.",
+      "description": "¡Salimos de Lima hacia la Fiesta Patronal de Chacas! Viviremos un viaje inolvidable lleno de fe, devoción, hermosos paisajes de la sierra y la gran cultura de Áncash. Prepárate para ser parte de una tradición única.",
+      "seoDescription": "Fe, devoción, cultura y paisajes de la sierra en una tradición única de Chacas.",
+      "duration": "3 días / 2 noches",
+      "schedule": "Salida desde Lima alrededor de 5:30 p. m. · retorno según programa",
+      "difficulty": "Baja a moderada",
+      "showPrice": false,
+      "priceLabel": "",
+      "priceDetail": "",
+      "highlights": [
+        "Picnic en Punta Olímpica y llegada a Chacas",
+        "Recorrido cultural y celebración patronal",
+        "Visitas a Huachucocha, Pomallucay y Huaraz según programa"
+      ],
+      "includes": [
+        "Guía profesional",
+        "Transporte turístico",
+        "Picnic de bienvenida"
+      ],
+      "notIncludes": [
+        "Alimentación y bebidas no indicadas",
+        "Gastos personales y propinas",
+        "Ingresos a parques o atractivos"
+      ],
+      "bring": [
+        "Documento de identidad",
+        "Abrigo y artículos personales",
+        "Dinero en efectivo para gastos no incluidos"
+      ],
+      "images": [
+        {
+          "path": "assets/tours/mama-ashu-01.webp",
+          "alt": "Procesión de Mamá Ashu en Chacas"
+        },
+        {
+          "path": "assets/tours/mama-ashu-02.webp",
+          "alt": "Danzantes tradicionales en la Fiesta Mamá Ashu"
+        }
+      ],
+      "video": "",
+      "videoTitle": ""
+    }
+  ]
+}

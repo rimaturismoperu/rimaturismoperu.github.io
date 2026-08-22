@@ -263,6 +263,7 @@ ul { margin-top: 0; }
 
 .detail-summary { position: relative; z-index: 2; margin-top: -1px; background: var(--yellow); }
 .detail-summary__grid { display: grid; grid-template-columns: .7fr 1.4fr .7fr 1fr; }
+.detail-summary__grid--three { grid-template-columns: .8fr 1.4fr .8fr; }
 .detail-summary__grid div { min-height: 122px; display: flex; flex-direction: column; justify-content: center; padding: 22px 28px; border-right: 1px solid rgba(18,37,31,.2); }
 .detail-summary__grid div:last-child { border: 0; }
 .detail-summary span { margin-bottom: 8px; color: rgba(18,37,31,.62); font-size: .68rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }

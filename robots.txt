@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://rimaturismoperu.github.io/sitemap.xml
+Disallow: /admin/
+Disallow: /setup/
+Disallow: /data/
+Disallow: /lib/
+Disallow: /scripts/
+Disallow: /worker/
+Sitemap: https://rimaturismoperu.pages.dev/sitemap.xml
