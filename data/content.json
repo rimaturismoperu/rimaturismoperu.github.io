@@ -9,7 +9,15 @@
     "email": "rimaturismoperu@hotmail.com",
     "baseUrl": "https://rimaturismoperu.pages.dev",
     "description": "Tours y experiencias auténticas en Chacas, el Callejón de Huaylas y el Callejón de Conchucos con Rimaturismo Perú.",
-    "address": "Jr. Lima 0 G, S/N, frente al Hotel Mirador Loungs, Chacas, Asunción, Áncash"
+    "address": "Jr. Lima 0 G, S/N, frente al Hotel Mirador Loungs, Chacas, Asunción, Áncash",
+    "facebook": "https://www.facebook.com/share/1Cz4TkMTCY/?mibextid=wwXIfr",
+    "tiktok": "https://www.tiktok.com/@rimaturismoperu?_r=1&_t=ZS-997Tmm004EK",
+    "claimsBookUrl": "https://www.librovirtual.pe/r/acosta-padilla-pablo",
+    "privacyUrl": "politica-de-privacidad.html",
+    "termsUrl": "terminos-y-condiciones.html",
+    "reservationsUrl": "politicas-de-reserva.html",
+    "coverImage": "assets/gallery/portada-chacas.webp",
+    "museumImage": "assets/gallery/museo-casa-torre-jara.webp"
   },
   "tours": [
     {
@@ -808,9 +816,9 @@
       "duration": "3 días / 2 noches",
       "schedule": "Salida desde Lima alrededor de 5:30 p. m. · retorno según programa",
       "difficulty": "Baja a moderada",
-      "showPrice": true,
-      "priceLabel": "300",
-      "priceDetail": "prueba en meet",
+      "showPrice": false,
+      "priceLabel": "",
+      "priceDetail": "",
       "highlights": [
         "Picnic en Punta Olímpica y llegada a Chacas",
         "Recorrido cultural y celebración patronal",

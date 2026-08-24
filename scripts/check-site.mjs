@@ -26,7 +26,8 @@ for (const slug of ["semana-santa-en-chacas", "fiesta-patronal-mama-ashu"]) {
   if (/Programa desde S\/320|<span>Tarifa<\/span>/.test(html)) errors.push(`${slug} todavía muestra un precio.`);
 }
 
-const pages = ["index.html", "admin/index.html", "setup/generador-credenciales.html", ...state.tours.map((tour) => `tours/${tour.slug}.html`)];
+const legalPages = ["politicas-de-reserva.html", "terminos-y-condiciones.html", "politica-de-privacidad.html"];
+const pages = ["index.html", "admin/index.html", "setup/generador-credenciales.html", ...legalPages, ...state.tours.map((tour) => `tours/${tour.slug}.html`)];
 for (const page of pages) {
   const absolute = resolve(root, page);
   const html = await readFile(absolute, "utf8");
@@ -45,6 +46,24 @@ const index = await readFile(resolve(root, "index.html"), "utf8");
 if ((index.match(/ADMIN:TOUR-CARDS:START/g) || []).length !== 1 || (index.match(/ADMIN:TOUR-CARDS:END/g) || []).length !== 1) errors.push("Los marcadores del catálogo en index.html no son válidos.");
 if (!index.includes("wa-icon")) errors.push("No se encontró el logotipo vectorial de WhatsApp.");
 if (!index.includes(`<link rel="canonical" href="${state.site.baseUrl}/"`)) errors.push("La dirección canónica del inicio no coincide con la configuración SEO.");
+if (!index.includes("assets/gallery/portada-chacas.webp")) errors.push("La portada aprobada no está publicada en el inicio.");
+if (!index.includes("assets/gallery/museo-casa-torre-jara.webp")) errors.push("La fotografía corregida del Museo Casa La Torre Jara no está publicada.");
+for (const forbidden of ["Protección de menores / ESNNA", "Registro sectorial MINCETUR", "Preparación para la etapa final"]) {
+  if (index.includes(forbidden)) errors.push(`El inicio conserva contenido no autorizado: ${forbidden}.`);
+}
+for (const required of [state.site.facebook, state.site.tiktok, state.site.claimsBookUrl, ...legalPages]) {
+  const encoded = String(required).replaceAll("&", "&amp;");
+  if (!index.includes(required) && !index.includes(encoded)) errors.push(`Falta un enlace final en el inicio: ${required}.`);
+}
+for (const page of legalPages) {
+  const html = await readFile(resolve(root, page), "utf8");
+  if (!html.includes(state.site.email) || !html.includes(state.site.whatsappDisplay)) errors.push(`${page} no muestra los datos de contacto oficiales.`);
+  if (!html.includes(`<link rel="canonical" href="${state.site.baseUrl}/${page}"`)) errors.push(`${page} no tiene su dirección canónica correcta.`);
+}
+const sitemap = await readFile(resolve(root, "sitemap.xml"), "utf8");
+for (const page of legalPages) {
+  if (!sitemap.includes(`${state.site.baseUrl}/${page}`)) errors.push(`sitemap.xml no incluye ${page}.`);
+}
 const robots = await readFile(resolve(root, "robots.txt"), "utf8");
 for (const privatePath of ["/admin/", "/setup/", "/data/", "/worker/"]) {
   if (!robots.includes(`Disallow: ${privatePath}`)) errors.push(`robots.txt no protege ${privatePath}.`);

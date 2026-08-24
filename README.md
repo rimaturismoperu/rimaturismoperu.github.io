@@ -1,26 +1,32 @@
-# Rimaturismo Perú
+# Rimaturismo Perú — entrega final
 
-Sitio estático, catálogo turístico y panel privado de la etapa 2.
+Sitio web turístico, catálogo de 18 experiencias y panel administrativo privado.
+
+## Dirección pública
+
+<https://rimaturismoperu.pages.dev/>
 
 ## Archivos principales
 
-- `index.html`: página principal.
-- `tours/`: páginas individuales generadas.
-- `data/content.json`: contenido que administra el panel.
+- `index.html`: página de inicio.
+- `tours/`: páginas individuales de las experiencias.
+- `politica-de-privacidad.html`: Política de Privacidad.
+- `terminos-y-condiciones.html`: Términos y Condiciones.
+- `politicas-de-reserva.html`: políticas de reserva, cancelación y reprogramación.
+- `data/content.json`: contenido administrado desde el panel.
 - `admin/`: panel privado.
-- `setup/`: generador local de credenciales.
-- `worker/worker-standalone.js`: código listo para pegar en Cloudflare Worker.
-- `LEEME-PRIMERO.md`: instalación explicada paso a paso.
-- `ETAPA-3-DATOS-DEL-CLIENTE.md`: lista para cerrar la etapa final.
+- `worker/worker-standalone.js`: servicio privado del panel.
+- `ENTREGA-ETAPA-3.md`: publicación, comprobación e indexación en Google.
 
-## Desarrollo y verificación
+## Verificación técnica
 
-Requiere Node.js 20 o superior.
+Requiere Node.js 20 o superior únicamente para desarrollo:
 
 ```bash
-npm run generate
-npm run build:worker
-npm run check
+node scripts/generate-site.mjs
+node scripts/build-worker.mjs
+node scripts/check-site.mjs
+node scripts/check-worker.mjs
 ```
 
-No se guarda ninguna contraseña ni token dentro del repositorio. Las credenciales se configuran como secretos del Worker.
+Las contraseñas y el token de GitHub no se guardan en este repositorio. Permanecen como secretos cifrados del Worker de Cloudflare.
