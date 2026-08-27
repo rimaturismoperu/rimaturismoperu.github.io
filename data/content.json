@@ -294,14 +294,14 @@
       "category": "huaylas",
       "categoryLabel": "Callejón de Huaylas",
       "type": "Alta montaña · Ascenso",
-      "cardDescription": "Una primera experiencia de montaña con equipo técnico y acompañamiento especializado.",
-      "description": "Ascenso de alta montaña pensado para personas con buena condición física y aclimatación. La experiencia se realiza con guía y equipo técnico, siempre sujeta a evaluación, clima y condiciones de seguridad.",
-      "seoDescription": "Una primera experiencia de montaña con equipo técnico y acompañamiento especializado.",
+      "cardDescription": "Los tours al Nevado Mateo son la opción ideal para quienes buscan su \"primera cumbre\" en la Cordillera Blanca, Áncash. Es una expedición de nivel fácil a moderado que no requiere experiencia técnica previa en escalada, aunque sí una buena condición física y aclimatación.",
+      "description": "LITERARIO\n•\tRecojo de hotel entre las 2:45 am hasta 3:00am\n•\tRetorno entre las 3:00pm a 3:30pm\n•\tEl Despertar: La travesía suele iniciar a las 3:00 a.m. en Huaraz, partiendo hacia la Punta Olímpica bajo un manto de estrellas y el aire gélido de los Andes.\n•\tLa Ascensión: El camino se divide en un tramo de roca y tierra (morrena) seguido por el ascenso técnico sobre el glaciar a 2 a 3 horas hasta la cima del nevado. Los relatos destacan la sensación de vencer miedos al colocarse los crampones y avanzar encordados en grupos.",
+      "seoDescription": "Los tours al Nevado Mateo son la opción ideal para quienes buscan su \"primera cumbre\" en la Cordillera Blanca, Áncash. Es una expedición de nivel fácil a moderado que no requiere experiencia técnica previa en escalada, aunque sí una buena condición física y aclimatación.",
       "duration": "Jornada de montaña",
       "schedule": "Recojo 2:45–3:00 a. m. · retorno estimado 3:00–3:30 p. m.",
       "difficulty": "Exigente",
       "showPrice": true,
-      "priceLabel": "Tarifa del tour: consultar",
+      "priceLabel": "Tarifa del tour: S/250",
       "priceDetail": "Ingreso referencial: S/30 por persona.",
       "highlights": [
         "Ascenso glaciar aproximado de 2 a 3 horas",
@@ -316,7 +316,7 @@
       "notIncludes": [
         "Ropa personal de montaña",
         "Alimentación y gastos no indicados",
-        "Ingreso al área"
+        "Ingreso al área (CASACA Y BUSO S/20)"
       ],
       "bring": [
         "Aclimatación y buena condición física",
