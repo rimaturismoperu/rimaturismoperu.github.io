@@ -533,10 +533,10 @@
       "categoryLabel": "Callejón de Huaylas",
       "type": "Paisaje · Full day",
       "cardDescription": "La Laguna de Llanganuco y el Camposanto de Yungay son dos de los destinos más emblemáticos del Callejón de Huaylas en Áncash. Ambos suelen visitarse en un mismo recorrido de un día.",
-      "description": "LITERARIO\n•\tRecojo de hotel entre las 8:00 am hasta 8:45am\n•\tEl tours parte de la agencia de Huaraz a las 9:30 am. Retorno entre las 7:00pm a 8:00pm\n•\tVisita a la provincia de Carhuaz (2688 m.s.n.m) para degustar de los helados (Heladería Porvenir) artesanales hechos con sabores a licores y frutas de la zona.\n•\tCamposanto de Yungay es un lugar de memoria histórica ubicado donde antes se encontraba la ciudad de Yungay, desaparecida por el alud del 31 de mayo de 1970.\nSe conservan restos simbólicos como el frontis de la iglesia, cuatro palmeras de la antigua Plaza de Armas y un cementerio en la colina que sobrevivió al desastre.\n•\tLaguna de Llanganuco ubicada a 3,850 m s. n. m. dentro del Parque Nacional Huascarán, es famosa por sus aguas color turquesa.\nEl paseo en bote es la actividad principal en la laguna Chinancocha.\n•\tFinalizando en Tarica visitando los centros de artesanía.",
+      "description": "LITERARIO\n•\tRecojo de hotel entre las 8:00 am hasta 8:45am\n•\tEl tours parte de la agencia de Huaraz a las 9:00 am. Retorno entre las 7:00pm a 8:00pm\n•\tVisita a la provincia de Carhuaz (2688 m.s.n.m) para degustar de los helados (Heladería Porvenir) artesanales hechos con sabores a licores y frutas de la zona.\n•\tCamposanto de Yungay es un lugar de memoria histórica ubicado donde antes se encontraba la ciudad de Yungay, desaparecida por el alud del 31 de mayo de 1970.\nSe conservan restos simbólicos como el frontis de la iglesia, cuatro palmeras de la antigua Plaza de Armas y un cementerio en la colina que sobrevivió al desastre.\n•\tLaguna de Llanganuco ubicada a 3,850 m s. n. m. dentro del Parque Nacional Huascarán, es famosa por sus aguas color turquesa.\nEl paseo en bote es la actividad principal en la laguna Chinancocha.\n•\tFinalizando en Tarica visitando los centros de artesanía.",
       "seoDescription": "La Laguna de Llanganuco y el Camposanto de Yungay son dos de los destinos más emblemáticos del Callejón de Huaylas en Áncash. Ambos suelen visitarse en un mismo recorrido de un día.",
       "duration": "Full day",
-      "schedule": "Salida 9:30 a. m. · retorno estimado 7:00–8:00 p. m.",
+      "schedule": "Salida 9:00 a. m. · retorno estimado 7:00–8:00 p. m.",
       "difficulty": "Baja a moderada",
       "showPrice": true,
       "priceLabel": "Tarifa del tour: S/50",
@@ -563,8 +563,32 @@
           "alt": "Laguna de Llanganuco entre montañas"
         },
         {
+          "path": "assets/uploads/llanganuco-y-yungay-images-19-1787861187448.webp",
+          "alt": "Llanganuco y Yungay - fotografía 5"
+        },
+        {
           "path": "assets/tours/llanganuco-yungay-02.webp",
           "alt": "Campo Santo de Yungay y Cordillera Blanca"
+        },
+        {
+          "path": "assets/uploads/llanganuco-y-yungay-93f60e86149b826aff74afb953472b4a-1787861189040.webp",
+          "alt": "Llanganuco y Yungay - fotografía 6"
+        },
+        {
+          "path": "assets/uploads/llanganuco-y-yungay-images-18-1787861190669.webp",
+          "alt": "Llanganuco y Yungay - fotografía 7"
+        },
+        {
+          "path": "assets/uploads/llanganuco-y-yungay-10172016103704-laguna-llanganuco-1787861182347.webp",
+          "alt": "Llanganuco y Yungay - fotografía 3"
+        },
+        {
+          "path": "assets/uploads/llanganuco-y-yungay-llangan-1787861367306.webp",
+          "alt": "Llanganuco y Yungay - fotografía 8"
+        },
+        {
+          "path": "assets/uploads/llanganuco-y-yungay-tours-a-laguna-de-llanganuco2-1787861185592.webp",
+          "alt": "Llanganuco y Yungay - fotografía 4"
         }
       ],
       "video": "",
