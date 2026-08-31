@@ -629,12 +629,36 @@
       ],
       "images": [
         {
+          "path": "assets/uploads/punta-olimpica-y-chacas-whatsapp-image-2026-05-18-at-1-40-44-pm-1788200789556.webp",
+          "alt": "Punta Olímpica y Chacas - fotografía 3"
+        },
+        {
+          "path": "assets/uploads/punta-olimpica-y-chacas-487825055-1999984847156491-6822155004589640513-n-1788201404275.webp",
+          "alt": "Punta Olímpica y Chacas - fotografía 6"
+        },
+        {
           "path": "assets/tours/punta-olimpica-chacas-01.webp",
           "alt": "Entrada al túnel Punta Olímpica"
         },
         {
+          "path": "assets/uploads/punta-olimpica-y-chacas-gemini-generated-image-e56tvne56tvne56t-1788200834327.webp",
+          "alt": "Punta Olímpica y Chacas - fotografía 4"
+        },
+        {
+          "path": "assets/uploads/punta-olimpica-y-chacas-circuito-turistico-chacas-1788201402020.webp",
+          "alt": "Punta Olímpica y Chacas - fotografía 5"
+        },
+        {
           "path": "assets/tours/punta-olimpica-chacas-02.webp",
           "alt": "Vista aérea de la plaza e iglesia de Chacas"
+        },
+        {
+          "path": "assets/uploads/punta-olimpica-y-chacas-481775770-648821384313979-4044495645420301495-n-1788201635901.webp",
+          "alt": "Punta Olímpica y Chacas - fotografía 7"
+        },
+        {
+          "path": "assets/uploads/punta-olimpica-y-chacas-492002123-686099863919464-90334249232893375-n-1788201638326.webp",
+          "alt": "Punta Olímpica y Chacas - fotografía 8"
         }
       ],
       "video": "assets/videos/experiencia-chacas.mp4",
