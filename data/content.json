@@ -467,12 +467,36 @@
       ],
       "images": [
         {
-          "path": "assets/tours/chavin-noche-01.webp",
-          "alt": "Escenificación cultural de Chavín de Noche"
+          "path": "assets/uploads/chavin-de-noche-fac84d32-2cc0-4bfc-b6e4-893b6fb779a2-768x512-1788202140143.webp",
+          "alt": "Chavín de Noche - fotografía 5"
         },
         {
           "path": "assets/tours/chavin-noche-02.webp",
           "alt": "Personaje enmascarado durante Chavín de Noche"
+        },
+        {
+          "path": "assets/uploads/chavin-de-noche-9b19a733-fffa-4a88-9dc3-b5d6048d7210-780x470-1788202141848.webp",
+          "alt": "Chavín de Noche - fotografía 6"
+        },
+        {
+          "path": "assets/uploads/chavin-de-noche-484130692-615078938014205-3774795391663547235-n-1788202256389.webp",
+          "alt": "Chavín de Noche - fotografía 7"
+        },
+        {
+          "path": "assets/uploads/chavin-de-noche-484942544-615078491347583-3814158598941058049-n-1788202285418.webp",
+          "alt": "Chavín de Noche - fotografía 8"
+        },
+        {
+          "path": "assets/uploads/chavin-de-noche-z5zsy6rxezdb3k42d3kzxkyoui-1788202712033.webp",
+          "alt": "Chavín de Noche - fotografía 8"
+        },
+        {
+          "path": "assets/uploads/chavin-de-noche-images-20-1788202138497.webp",
+          "alt": "Chavín de Noche - fotografía 4"
+        },
+        {
+          "path": "assets/uploads/chavin-de-noche-tours-chavin-huantar-1788202136972.webp",
+          "alt": "Chavín de Noche - fotografía 3"
         }
       ],
       "video": "",
