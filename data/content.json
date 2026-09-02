@@ -723,12 +723,28 @@
       ],
       "images": [
         {
+          "path": "assets/uploads/picnic-punta-olimpica-saveclip-app-618986656-18062584289642404-5843876803013134308-n-1788360119557.webp",
+          "alt": "Picnic Punta Olímpica - fotografía 4"
+        },
+        {
           "path": "assets/tours/picnic-punta-olimpica-01.webp",
           "alt": "Grupo compartiendo un picnic en Punta Olímpica"
         },
         {
           "path": "assets/tours/picnic-punta-olimpica-02.webp",
           "alt": "Picnic andino frente a una laguna de altura"
+        },
+        {
+          "path": "assets/uploads/picnic-punta-olimpica-whatsapp-image-2026-08-24-at-1-09-26-pm-1788360102799.webp",
+          "alt": "Picnic Punta Olímpica - fotografía 3"
+        },
+        {
+          "path": "assets/uploads/picnic-punta-olimpica-gemini-generated-image-j9c24aj9c24aj9c2-1788360640548.webp",
+          "alt": "Picnic Punta Olímpica - fotografía 6"
+        },
+        {
+          "path": "assets/uploads/picnic-punta-olimpica-31dcb202-aafe-4b9c-8d6d-07dc617e344c-1788360625065.webp",
+          "alt": "Picnic Punta Olímpica - fotografía 5"
         }
       ],
       "video": "",
