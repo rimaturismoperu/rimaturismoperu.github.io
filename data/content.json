@@ -815,8 +815,12 @@
       ],
       "images": [
         {
-          "path": "assets/tours/laguna-patarcocha-01.webp",
-          "alt": "Laguna Patarcocha y una pequeña embarcación"
+          "path": "assets/uploads/laguna-patarcocha-594595493-1172533785073999-6836243889114043072-n-1788359500970.webp",
+          "alt": "Laguna Patarcocha - fotografía 4"
+        },
+        {
+          "path": "assets/uploads/laguna-patarcocha-594663902-1172536041740440-5123819201712107158-n-1788359497075.webp",
+          "alt": "Laguna Patarcocha - fotografía 3"
         },
         {
           "path": "assets/tours/laguna-patarcocha-02.webp",
