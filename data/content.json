@@ -627,7 +627,7 @@
       "categoryLabel": "Callejón de Conchucos",
       "type": "Pueblos y montañas · Full day",
       "cardDescription": "Punta OLÍMPICA y CHACAS conforman una de las rutas escénicas más impresionantes de Áncash, conectando el Callejón de Huaylas con la zona de Conchucos a través del corazón de la Cordillera Blanca y la maravillosa artesanía DON BOSCO a la llegada del PADRE UGO DE CENSI al pueblo de CHACAS.",
-      "description": "LITERARIO\n•\tRecojo de hotel entre las 8:15 am hasta 8:45am\n•\tEl tours parte de la agencia de Huaraz a las 9:15 am. Retorno entre las 7:30pm a 8:30pm\n•\tVisita a la provincia de Carhuaz (2688 m.s.n.m) para degustar de los helados (Heladería Porvenir) artesanales hechos con sabores a licores y frutas de la zona.\n•\tQuebrada Ulta: Ingreso al Parque Nacional Huascarán.\n•\tTúnel Punta Olímpica: Paso por el túnel trasandino más alto del mundo (4,736 m s.n.m.) con vistas a los nevados Huascarán y Contrahierbas.\n•\tLaguna Cancaragá: Breve parada para apreciar sus aguas turquesas.\n•\tChacas: Visita a la Plaza de Armas, el Santuario de Mama Ashu y los talleres de carpintería Don Bosco.",
+      "description": "LITERARIO\n•\tRecojo de hotel entre las 8:15 am hasta 8:45am\n•\tEl tours parte de la agencia de Huaraz a las 9:15 am. Retorno entre las 7:30pm a 8:30pm\n•\tVisita a la provincia de Carhuaz (2688 m.s.n.m) para degustar de los helados (Heladería Porvenir) artesanales hechos con sabores a licores y frutas de la zona.\n•\tTúnel Punta Olímpica: Paso por el túnel trasandino más alto del mundo (4,736 m s.n.m.) con vistas a los nevados Huascarán y Contrahierbas.\n•\tLaguna Cancaragá: Breve parada para apreciar sus aguas turquesas.\n•\tChacas: Visita a la Plaza de Armas, el Santuario de Mama Ashu y los talleres de carpintería Don Bosco.",
       "seoDescription": "Punta OLÍMPICA y CHACAS conforman una de las rutas escénicas más impresionantes de Áncash, conectando el Callejón de Huaylas con la zona de Conchucos a través del corazón de la Cordillera Blanca y la maravillosa artesanía DON BOSCO a la llegada del PADRE UGO DE CENSI al pueblo de CHACAS.",
       "duration": "Full day",
       "schedule": "Salida 9:15 a. m. · retorno estimado 7:30–8:30 p. m.",
@@ -1114,6 +1114,31 @@
           "alt": "Fiesta Patronal Mamá Ashu 2027 - fotografía 6"
         }
       ],
+      "video": "",
+      "videoTitle": ""
+    },
+    {
+      "id": "full-day-chacas-pomallucay",
+      "slug": "full-day-chacas-pomallucay",
+      "order": 19,
+      "name": "FULL DAY CHACAS-POMAllUCAY",
+      "category": "conchucos",
+      "categoryLabel": "Callejón de Conchucos",
+      "type": "Experiencia turística",
+      "cardDescription": "Una experiencia de full day que combina paisajes majestuosos, cultura andina-cultura italiana y un recorrido seguro y profesional. Perfecta para aventureros que desean conocer la zona de los Conchucos.",
+      "description": "LITERARIO\n•\tRecojo de hotel entre las 4:00 am hasta 4:45am\n•\tEl tours parte de la agencia de Huaraz a las 5:15 am. Retorno entre las 7:00pm a 8:00pm\n•\tTúnel Punta Olímpica: Paso por el túnel trasandino más alto del mundo (4,736 m s.n.m.) con vistas a los nevados Huascarán y Contrahierbas.\n•\tLaguna Cancaragá: Breve parada para apreciar sus aguas turquesas.\n•\tChacas: Visita a la Plaza de Armas, el Santuario de Mama Ashu y los talleres de carpintería Don Bosco.\n•      El Santuario de Pomallucay\n•      Patio de los Seminaristas (preparación de sacerdote)",
+      "seoDescription": "Una experiencia de full day que combina paisajes majestuosos, cultura andina-cultura italiana y un recorrido seguro y profesional. Perfecta para aventureros que desean conocer la zona de los Conchucos.",
+      "duration": "Full day",
+      "schedule": "Salida 5:00 a. m. · retorno estimado 7:00–8:00 p. m.",
+      "difficulty": "Moderada",
+      "showPrice": true,
+      "priceLabel": "Tarifa del tour: S/100",
+      "priceDetail": "Ingreso referencial: S/12 nacional · S/30 extranjero.",
+      "highlights": [],
+      "includes": [],
+      "notIncludes": [],
+      "bring": [],
+      "images": [],
       "video": "",
       "videoTitle": ""
     }
