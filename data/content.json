@@ -1132,7 +1132,7 @@
       "schedule": "Salida 5:00 a. m. · retorno estimado 7:00–8:00 p. m.",
       "difficulty": "Moderada",
       "showPrice": true,
-      "priceLabel": "Tarifa del tour: S/100",
+      "priceLabel": "Tarifa del tour: S/120",
       "priceDetail": "Ingreso referencial: S/12 nacional · S/30 extranjero.",
       "highlights": [
         "Quebrada Ulta y vista de la Cordillera Blanca",
@@ -1151,7 +1151,40 @@
         "Calzado cómodo",
         "Agua y protector solar"
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/uploads/full-day-chacas-pomallucay-gemini-generated-image-i1k45ei1k45ei1k4-1790801603426.webp",
+          "alt": "FULL DAY CHACAS-POMAllUCAY - fotografía 1"
+        },
+        {
+          "path": "assets/uploads/full-day-chacas-pomallucay-images-24-1790801777460.webp",
+          "alt": "FULL DAY CHACAS-POMAllUCAY - fotografía 2"
+        },
+        {
+          "path": "assets/uploads/full-day-chacas-pomallucay-gemini-generated-image-e56tvne56tvne56t-1790801856818.webp",
+          "alt": "FULL DAY CHACAS-POMAllUCAY - fotografía 3"
+        },
+        {
+          "path": "assets/uploads/full-day-chacas-pomallucay-punta-olimpica-chacas15-1790801884187.webp",
+          "alt": "FULL DAY CHACAS-POMAllUCAY - fotografía 4"
+        },
+        {
+          "path": "assets/uploads/full-day-chacas-pomallucay-punta-olimpica-chacas-02-1790802288855.webp",
+          "alt": "FULL DAY CHACAS-POMAllUCAY - fotografía 8"
+        },
+        {
+          "path": "assets/uploads/full-day-chacas-pomallucay-punta-olimpica-y-chacas-492002123-686099863919464-90334249232893375-n-1788201638-1790802279800.webp",
+          "alt": "FULL DAY CHACAS-POMAllUCAY - fotografía 7"
+        },
+        {
+          "path": "assets/uploads/full-day-chacas-pomallucay-4-1790802035667.webp",
+          "alt": "FULL DAY CHACAS-POMAllUCAY - fotografía 7"
+        },
+        {
+          "path": "assets/uploads/full-day-chacas-pomallucay-5da8fef8-22f3-4d8f-b836-c284534b9364-1790802022538.webp",
+          "alt": "FULL DAY CHACAS-POMAllUCAY - fotografía 6"
+        }
+      ],
       "video": "",
       "videoTitle": ""
     }
